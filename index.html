@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=BASIC ">
+    <title>BASIC CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Basic Calculator</h1>
+    <br>
+    <form name="cal">
+        <div-class="main-container">
+            <input type="text"
+            name="result"><br>
+            <input type="button"value="1" onclick="cal.result.value =(cal.result.value)+'1'">
+            <input type="button"
+            value="2" onclick="cal.result.value =(cal.result.value)+'2'">
+            <input type="button"
+            value="3" onclick="cal.result.value=(cal.result.value)+'3'"><br>
+            <input type="button"
+            value="4" onclick="cal.result.value=(cal.result.value)+'4'">
+            <input type="button"
+            value="5" onclick="cal.result.value =(cal.result.value)+'5'">
+            <input type="button"
+            value="6" onclick="cal.result.value=(cal.result.value)+'6'"><br>
+            <input type="button"
+            value="7" onclick="cal.result.value=(cal.result.value)+'7'">
+            <input type="button"
+            value="8" onclick="cal.result.value =(cal.result.value)+'8'">
+            <input type="button"
+            value="9" onclick="cal.result.value =(cal.result.value)+'9'"><br>
+            <input type="button"
+            value="+" onclick="cal.result.value =(cal.result.value)+'+' ">
+            <input type="button"
+            value="0" onclick="cal.result.value =(cal.result.value)+'0'">
+            <input type="button" value="-" onclick="cal.result.value =(cal.result.value)+'-'"><br>
+            <input type="button" value="*" onclick="cal.result.value =(cal.result.value)+'*'">
+            <input type="button"
+            value="/" onclick="cal.result.value=(cal.result.value)+'/'">
+            <input type="button"value="=" onclick="cal.result.value =eval(cal.result.value)"+>
+            <input id="clear-btn"type="button"value="CLEAR"onclick="cal.result.value=''">
+        </div-class>
+    </form>
+</body>
+</html>
